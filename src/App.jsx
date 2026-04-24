@@ -25,12 +25,12 @@ export default function App() {
   });
 
   // aos
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 1000,
-  //     once: false,
-  //   });
-  // }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
 
   // remove from cart
   const removeFromCart = (id) => {
