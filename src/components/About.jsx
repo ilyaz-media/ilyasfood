@@ -1,4 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import img from '../assets/4.png'
 
 export default function About() {
   return (
@@ -26,7 +27,7 @@ export default function About() {
         <div data-aos='fade-down'>
           <div className="p-2 h-[400px] rounded-full bg-orange-400 overflow-hidden ">
             <img
-              src="src\assets\4.png"
+              src={img}
               alt=""
               className="h-full object-cover"
             />
