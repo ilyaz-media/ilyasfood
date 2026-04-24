@@ -22,7 +22,7 @@ export default function Navbar({ openCart, setOpenCart, cart, setCart }) {
               Contact
             </a>
         </div>
-        <div className="flex gap-5">
+        <div className="flex gap-5 md:hidden  ">
           <button onClick={() => setOpenCart(true)}>
               <FaCartShopping />
             </button>

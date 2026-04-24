@@ -17,7 +17,7 @@ export const menus = [
     id: 3,
     nama: "Ayam Geprek Mozarela",
     harga: 15000,
-    gambar: img
+    gambar: img1
   },
   {
     id: 4,
