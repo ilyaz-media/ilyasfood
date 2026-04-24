@@ -2,10 +2,8 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 
-export default function Navbar({openCart,setOpenCart,cart,setCart}) {
+export default function Navbar({ openCart, setOpenCart, cart, setCart }) {
   const [openBar, setOpenBar] = useState(false);
-
-
 
   return (
     <div>
@@ -15,19 +13,24 @@ export default function Navbar({openCart,setOpenCart,cart,setCart}) {
           <a href="#home">Home</a>
           <a href="#menu">Menu</a>
           <a href="#about">About</a>
-        <button onClick={()=> setOpenCart(true)}><FaCartShopping/></button>
-
-          <a
-            href="#info"
-            className=" px-5 py-2 rounded-lg shadow-lg text-white bg-orange-400">
-            Contact
-          </a>
+            <button onClick={() => setOpenCart(true)}>
+              <FaCartShopping />
+            </button>
+            <a
+              href="#info"
+              className=" px-5 py-2 rounded-lg shadow-lg text-white bg-orange-400">
+              Contact
+            </a>
         </div>
-        <div className="flex gap-5 md:hidden">
-        <button className="md:hidden" onClick={()=> setOpenCart(true)}><FaCartShopping /></button>
-        <button className="md:hidden flex gap-5" onClick={() => setOpenBar(!openBar)}>
-          {openBar ? <FaTimes /> : <FaBars />}
-        </button>
+        <div className="flex gap-2 md:hidden">
+          <button className="md:hidden" onClick={() => setOpenCart(true)}>
+            <FaCartShopping />
+          </button>
+          <button
+            className="md:hidden flex gap-5"
+            onClick={() => setOpenBar(!openBar)}>
+            {openBar ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
       </nav>
       {openBar && (
