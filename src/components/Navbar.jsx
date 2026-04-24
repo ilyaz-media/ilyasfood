@@ -7,7 +7,7 @@ export default function Navbar({ openCart, setOpenCart, cart, setCart }) {
 
   return (
     <div>
-      <nav className="flex justify-between py-5 px-10 bg-white  items-center fixed  w-full z-10 ">
+      <nav className="flex justify-between bg-white  px-10 py-3 items-center dark:bg-black/50 dark:text-white duration-500 fixed top-0 w-full z-20">
         <div className="text-2xl font-bold text-orange-400">Warung Geprek</div>
         <div className="flex gap-10 hidden md:flex items-center">
           <a href="#home">Home</a>
@@ -22,7 +22,7 @@ export default function Navbar({ openCart, setOpenCart, cart, setCart }) {
               Contact
             </a>
         </div>
-        <div className="flex gap-2 md:hidden">
+        <div className="flex gap-4 md:hidden">
           <button className="md:hidden" onClick={() => setOpenCart(true)}>
             <FaCartShopping />
           </button>
