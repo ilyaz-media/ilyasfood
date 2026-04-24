@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <div id="home" className="min-h-[70vh] pt-10" style={{backgroundImage:`url(${bg})`,backgroundPosition:'center', backgroundSize:'cover'}}>
+    <div id="home" className="min-h-[70vh] pt-10 w-full" style={{backgroundImage:`url(${bg})`,backgroundPosition:'center', backgroundSize:'cover'}}>
     <div className="min-h-[70vh] p-10 bg-black/50 " >
       <div className="flex justify-center items-center gap-5 min-h-screen md:min-h-[70vh]">
         <div className="p-5 h-full text-white  flex flex-col justify-center items-center relative ">        

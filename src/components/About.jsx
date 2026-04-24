@@ -7,7 +7,7 @@ export default function About() {
       <h1 className="font-bold text-3xl">Tentang Kami</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-20 gap-10">
-        <div className="flex justify-center flex-col gap-5" data-aos='fade-right'>
+        <div className="flex justify-center flex-col gap-5" data-aos='fade-up'>
           <p className=" text-start">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
             doloribus tempore tempora quos? Quae quisquam voluptatem saepe
@@ -23,7 +23,7 @@ export default function About() {
             <FaGithub size={40} />
           </div>
         </div>
-        <div data-aos='fade-left'>
+        <div data-aos='fade-down'>
           <div className="p-2 h-[400px] rounded-full bg-orange-400 overflow-hidden ">
             <img
               src="src\assets\4.png"

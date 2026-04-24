@@ -76,7 +76,7 @@ export default function App() {
   };
 
   return (
-    <div className=" min-h-screen font-poppins">
+    <div className=" min-h-screen font-poppins w-full">
       <Navbar openCart={openCart} setOpenCart={setOpenCart} cart={cart} setCart={setCart} />
       <Hero />
       <Medsos />
