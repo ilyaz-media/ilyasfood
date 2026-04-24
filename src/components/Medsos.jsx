@@ -5,7 +5,7 @@ export default function Medsos() {
   return (
     <div className="bg-white rounded-3xl shadow-lg -translate-y-10 p-5 flex gap-5 items-start w-[90%] mx-[auto] justify-center flex-col md:flex-row text- text-sm">
       
-      <div className="flex gap-5 text-center justify-center items-center ">
+      <div className="flex gap-5  justify-center items-center ">
         <FaLocationPin size={20} className="text-red-400" />
          <p>Sukamurni, Cilawu, Garut Regency, West Java</p>
       </div>

@@ -9,7 +9,7 @@ export default function Higlight() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-20">
         {/* left */}
         <div className=" gap-10 bg-orange-600 rounded-3xl  relative h-full" data-aos='fade-up'>
-            {/* <div className="box bg-orange-500 p-5 absolute -translate-y-8 -translate-x-3 rounded-3xl text-white font-bold text-xl">100% fresh</div>           */}
+            <div className="box bg-orange-500 p-5 absolute -translate-y-8 -translate-x-3 rounded-3xl text-white font-bold text-xl">100% fresh</div>          
          <img src={img2} alt="" className=" w-full h-[100%] object-cover rounded-3xl" />
         </div>
         {/* center */}
@@ -35,7 +35,7 @@ export default function Higlight() {
 
          {/* right */}
         <div className=" gap-10 bg-orange-600 rounded-3xl  relative h-[100%] " data-aos="fade-up" data-aos-delay='600'>
-            {/* <div className="box bg-orange-500 p-5 absolute -translate-y-8 right-0 translate-x-3 rounded-3xl text-white font-bold text-xl">Bikin nagih !</div>           */}
+            <div className="box bg-orange-500 p-5 absolute -translate-y-8 right-0 translate-x-3 rounded-3xl text-white font-bold text-xl">Bikin nagih !</div>          
          <img src={img1} alt="" className=" w-full h-[100%] object-cover rounded-3xl" />
         </div>
       </div>

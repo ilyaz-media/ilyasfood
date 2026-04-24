@@ -180,16 +180,16 @@ export default function App() {
           onClick={() => setOpenForm(false)}>
           {" "}
           <div
-            className="bg-white h-screen w-[90%]  "
+            className="bg-white h-screen w-[100%]  "
             onClick={(e) => e.stopPropagation()}>
             <h1 className="text-2xl font-bold mt-[100px] text-center">
               Konfirmasi Pesanan
             </h1>
-            <div className="p-10  h-[500px] flex justify-center">
+            <div className="p-10  flex justify-center">
               <form
               onSubmit={handleSubmit}
                 action=""
-                className="w-full md:w-[80%] bg-slate-200 p-10 flex flex-col gap-2">
+                className="w-full md:w-[80%] rounded-lg bg-slate-200 p-5 md:p-10 flex flex-col gap-2">
                 <div>
                   <label htmlFor="">Nama :</label>
                   <input
@@ -205,7 +205,7 @@ export default function App() {
                   <label htmlFor="">Telepon :</label>
                   <input
                     type="text"
-                    placeholder="masukan nama anda"
+                    placeholder="masukan no telepon"
                     className="w-full bg-slate-300 px-10 py-2 rounded-lg"
                     name="telepon"
                     value={form.telepon}
@@ -216,7 +216,7 @@ export default function App() {
                   <label htmlFor="">Alamat :</label>
                   <textarea
                     type="text"
-                    placeholder="masukan nama anda"
+                    placeholder="masukan alamat lengkap"
                     className="w-full bg-slate-300 px-10 py-2 rounded-lg"
                     name="alamat"
                     value={form.alamat}
