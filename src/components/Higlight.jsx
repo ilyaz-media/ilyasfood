@@ -14,11 +14,7 @@ export default function Higlight() {
         </div>
         {/* center */}
            <div className="p-5 mb-10 " data-aos="fade-up" data-aos-delay='400'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus exercitationem corrupti cumque hic mollitia, magni
-          explicabo vel quas! Quae ipsam sit quaerat itaque. Lorem ipsum dolor
-          sit amet, consectetur adipisicing elit. Dicta dolorum natus mollitia
-          numquam animi unde magni illo excepturi voluptatum veniam?
+          Ayam geprek kami menawarkan perpaduan sempurna antara ayam renyah di luar dan juicy di dalam, dipadukan dengan sambal segar yang bisa disesuaikan tingkat pedasnya. Dibuat dari bahan berkualitas dengan rasa yang konsisten, kami menghadirkan hidangan lezat, higienis, dan terjangkau yang siap bikin ketagihan.
           <div className=" grid grid-cols-3 gap-2 mt-5">
             
             <div className="p-3 bg-orange-400 text-white font-bold">

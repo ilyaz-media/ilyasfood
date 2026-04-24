@@ -19,7 +19,7 @@ export default function Hero() {
           </h2>
           <div className="flex mt-2 gap-2">
             <a href="#menu" className="py-3 px-5 rounded-lg bg-orange-400 shadow-lg text-white">Pesan Sekarang</a>
-            <a href="#menu" className="py-3 px-5 rounded-lg bg-slate-50 shadow-lg text-black">Hubungi kami</a>
+            <a href="#info" className="py-3 px-5 rounded-lg bg-slate-50 shadow-lg text-black">Hubungi kami</a>
           </div>
         </div>
      

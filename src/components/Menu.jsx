@@ -56,8 +56,7 @@ export default function Menu({
       <h1 className="font-bold text-xl text-red-400">MENUS</h1>
       <h1 className="font-bold e text-3xl">Daftar Menu</h1>
       <p className="font-light   m-[auto]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        alias,recusandae.
+      Temukan menu favoritmu di sini
       </p>
       <div className="mt-10  m-[auto]  rounded-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {menus.map((item) => {

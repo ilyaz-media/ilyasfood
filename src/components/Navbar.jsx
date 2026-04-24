@@ -8,7 +8,7 @@ export default function Navbar({ openCart, setOpenCart, cart, setCart }) {
   return (
     <div>
       <nav className="flex justify-between bg-white py-5 px-10 items-center   duration-500 fixed top-0 left-0 w-full z-20">
-        <div className="text-2xl font-bold text-orange-400">Warung Geprek</div>
+        <div className="text-2xl font-bold text-orange-400">IlyasFood</div>
         <div className="flex gap-10 hidden md:flex items-center">
           <a href="#home">Home</a>
           <a href="#menu">Menu</a>
